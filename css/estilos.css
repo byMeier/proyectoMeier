@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Timeless';
+    src: url("../assets/fonts/Timeless-Bold.ttf") format('truetype');
+    src: url("../assets/fonts/Timeless.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url("../assets/fonts/Gotham-Font/Gotham-Bold.otf") format('truetype');
+    src: url("../assets/fonts/Gotham-Font/GothamMedium.ttf") format('truetype');
+    /*src: url("../assets/fonts/Gotham-Font/GothamBook.ttf") format('truetype');*/
+}
+
+body{
+    background-color: #f4f1e9a1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container4 .noSiente{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: flex-end;
+}
+
+.songsBox1{
+    background: rgba(202, 202, 202, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(202, 202, 202, 0.3);
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    padding: 1%;
+    margin: 1%;
+    width: 80%;
+}
+
+.songsBox2{
+    background: rgba(202, 202, 202, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(202, 202, 202, 0.3);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1%;
+    margin: 1%;
+    width: 32%;
+}
+
+fieldset{
+    background: rgba(202, 202, 202, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(202, 202, 202, 0.3);
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: hidden;
+    padding: 1%;
+    margin: 1%;
+    width: 50%;
+}
+
+.galeriaFotos{
+    background: rgba(202, 202, 202, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(202, 202, 202, 0.3);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    padding: 1%;
+    margin: 1%;
+    width: 98%;
+}
+
+.galeriaFotos .marginFoto{
+    margin: 1%;
+}
+
+div .foto{
+    box-shadow: 0 0 5px black;
+    width: 800px;
+    height: 800px;
+}
+
+div .fotoGaleria{
+    width: 100%;
+    box-shadow: 0 0 5px black;
+}
+
+section .container3{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.new .container4{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.new .container5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+body .galeria{
+    background-image: url(../assets/img/fondo14.png);
+}
+
+body .fechas{
+    background-image: url(../assets/img/fondo10.png);
+}
+
+body .discografia{
+    background-image: url(../assets/img/fondo12.png);
+}
+
+body .contacto{
+    background-image: url(../assets/img/fondo3.png);
+    height: 200px;
+}
+
+.navBarMini{
+    width: 100%;
+    display: flex;
+}
+
+.navBarMini .containerMini{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.navBarMini li{
+    width: 235px;
+    height: 180px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    list-style: none;
+}
+
+.navBarMini li a{
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Timeless';
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.navBarMini li a:hover{
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition: 0.4s;
+}
+
+header{
+    width: 100%;
+    height: 575px;
+    background-image: url(../assets/img/fondo6.png);
+    background-repeat: no-repeat;
+    background-size: ccover;
+    position: relative;
+}
+
+.navBar{
+    width: 100%;
+    display: flex;
+}
+
+a .logo{
+    width: 235px;
+    height: 180px;
+    margin-top: 10px;
+}
+
+a .logo:hover{
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    transition: 0.4s;
+}
+
+div .song{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 5px black;
+}
+
+.navBar .container{
+    width: 100%;
+    height: 525px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.navBar li{
+    width: 235px;
+    height: 180px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    list-style: none;
+}
+
+.navBar li a{
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Timeless';
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.navBar li a:hover{
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition: 0.4s;
+}
+
+.new{
+    width:100%;
+    overflow: hidden;
+
+}
+
+.arrowContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header .arrow{
+    width: 50px;
+    height: 50px;
+}
+
+header .arrow:hover{
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    transition: 0.4s;
+}
+
+.arrowImg
+{
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    margin-top: auto;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Timeless';
+    font-weight: lighter;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+section .title{
+    text-align: center;
+    margin-top: 1%;
+}
+
+div .title{
+    text-align: center;
+    margin: 1%;
+}
+
+h2{
+    font-family: 'Gotham';
+    font-size: 40px;
+    font-weight:bold;
+    margin-left: 10px;
+}
+
+span{
+    font-family: 'Gotham';
+    font-size: 30px;
+    font-weight:bold;
+    margin: 1%;
+}
+
+input{
+    width: 100%;
+    margin: 1%;
+    font-family: 'Gotham';
+    font-size: 15px;
+    font-weight:lighter;
+}
+
+form .button{
+    width: 20%;
+}
+
+form .label{
+    display: flex;
+    flex-wrap: row nowrap;
+}
+
+form .labelArea{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding-right: 2%;
+}
+
+
+textarea{
+    width: 100%;
+    font-family: 'Gotham';
+    font-size: 15px;
+    font-weight:lighter;
+    margin: 1%;
+}
+
+.songsBox2 .videoTitle{
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+
+h3{
+    font-family: 'Gotham';
+    font-size: 25px;
+    font-weight: medium;
+    margin-left: 10px;
+}
+
+section .mainTitle{
+    font-size: 30px;
+    font-family: 'Timeless';
+    font-weight: lighter;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding-top: 18px;
+}
+
+main{
+    display: flex;
+    flex-wrap: row nowrap;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Gotham';
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+hr{
+    width: 100%;
+    color: rgb(211, 211, 211);
+}
+
+iframe{
+    box-shadow: 0 0 10px black;
+}
+
+a .socialMedia{
+    width: 55px;
+    height: 55px;
+}
+
+.amuse{
+    width: 100%;
+    display: block;
+    height: 250px;
+    margin: 1%;
+}
+
+div .amuse:hover{
+    box-shadow: 0 0 5px black;
+    transition:0.4s;
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.container2 li{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    list-style: none;
+}
+
+.container2 li a:hover{
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    transition: 0.4s;
+}
+
+/*
+video{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+}
+*/
