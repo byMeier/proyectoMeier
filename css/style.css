@@ -1,0 +1,593 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'Timeless';
+  src: url("../assets/fonts/Timeless-Bold.ttf") format("truetype");
+  src: url("../assets/fonts/Timeless.ttf") format("truetype");
+  font-family: 'Gotham';
+  src: url("../assets/fonts/Gotham-Font/Gotham-Bold.otf") format("truetype");
+  src: url("../assets/fonts/Gotham-Font/GothamMedium.ttf") format("truetype"); }
+
+header {
+  width: 100%;
+  overflow: hidden;
+  background-image: url(../assets/img/fondo6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  header .arrow {
+    width: 50px;
+    height: 50px; }
+    header .arrow:hover {
+      filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+      transition: 0.4s; }
+
+.navBarMini {
+  width: 100%;
+  display: flex; }
+  .navBarMini .containerMini {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 75px; }
+  .navBarMini li {
+    width: 235px;
+    height: 180px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    list-style: none; }
+    .navBarMini li a {
+      display: inline-block;
+      font-size: 40px;
+      font-family: 'Timeless';
+      font-weight: bold;
+      text-decoration: none;
+      color: black; }
+      .navBarMini li a:hover {
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        transition: 0.4s; }
+
+.navBar {
+  width: 100%;
+  display: flex; }
+
+.navbar-nav {
+  width: 100%;
+  height: 525px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+
+.nav-item {
+  width: 180px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  list-style: none; }
+
+.nav-link {
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'Timeless';
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-family: "Timeless";
+  font-weight: bold;
+  font-size: 1.5rem; }
+  .nav-link:hover {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition: 0.4s; }
+
+.navbar-toggler-icon {
+  background-image: url(../assets/img/hamburguer.png);
+  width: 50px;
+  height: 50px; }
+
+.point {
+  width: 20px;
+  height: 20px; }
+
+ol, ul {
+  padding: 0; }
+
+body {
+  background-color: #f4f1e9a1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+  body .galeria {
+    background-image: url(../assets/img/fondo14.png); }
+  body .fechas {
+    background-image: url(../assets/img/fondo10.png); }
+  body .discografia {
+    background-image: url(../assets/img/fondo12.png); }
+  body .contacto {
+    background-image: url(../assets/img/fondo3.png); }
+
+div.info {
+  height: 70px; }
+
+div.container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between; }
+
+div .song {
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 5px black;
+  align-self: center; }
+
+div .ownsong {
+  width: 220px;
+  height: 220px;
+  box-shadow: 0 0 5px black; }
+
+div .amuse:hover {
+  box-shadow: 0 0 5px black;
+  transition: 0.4s; }
+
+div .foto {
+  box-shadow: 0 0 5px black;
+  width: 100%;
+  overflow: hidden;
+  align-self: center;
+  margin-right: 1%; }
+
+div .fotoGaleria {
+  width: 100%;
+  box-shadow: 0 0 5px black; }
+
+div .title {
+  text-align: center;
+  margin: 1%; }
+
+.arrowContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.arrowImg {
+  width: 50px;
+  height: 50px; }
+
+main {
+  display: flex;
+  flex-wrap: row nowrap;
+  justify-content: center; }
+
+section .container3 {
+  display: flex;
+  flex-flow: column wrap; }
+
+section .mainTitle {
+  font-size: 30px;
+  font-family: 'Timeless';
+  font-weight: lighter;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding-top: 18px; }
+
+section .title {
+  text-align: center;
+  margin: 2%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.new {
+  width: 100%;
+  overflow: hidden; }
+  .new .container4 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center; }
+  .new .container5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; }
+  .new .title {
+    margin-bottom: 0; }
+
+.songsBox1 {
+  background: rgba(202, 202, 202, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(202, 202, 202, 0.3);
+  display: flex;
+  flex-flow: column wrap;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 4%;
+  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; }
+
+.songsBox12 {
+  background: rgba(202, 202, 202, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(202, 202, 202, 0.3);
+  display: flex;
+  flex-flow: column wrap;
+  overflow: hidden;
+  align-items: center;
+  padding: 4%;
+  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; }
+
+.songsBox13 {
+  background: rgba(202, 202, 202, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(202, 202, 202, 0.3);
+  display: flex;
+  flex-flow: column wrap;
+  overflow: hidden;
+  align-items: center;
+  padding: 4%;
+  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; }
+
+.songsBox2 {
+  background: rgba(202, 202, 202, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(202, 202, 202, 0.3);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  overflow: hidden;
+  padding: 3%;
+  padding-top: 1%;
+  margin: 2%;
+  width: 97%; }
+  .songsBox2 .videoTitle {
+    font-size: 25px;
+    margin-bottom: 1%;
+    text-align: center; }
+
+.container4 .noSiente {
+  display: flex;
+  justify-content: flex-end; }
+
+.amuse {
+  width: 220px;
+  height: 220px;
+  display: block;
+  margin: 2%;
+  margin-left: 1%; }
+
+.galeriaFotos {
+  background: rgba(202, 202, 202, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(202, 202, 202, 0.3);
+  overflow: hidden;
+  padding: 1%;
+  margin: 1%;
+  width: 98%; }
+  .galeriaFotos .marginFoto {
+    margin: 1%; }
+
+a .logo2 {
+  width: 235px;
+  height: 180px;
+  margin-top: 10px; }
+  a .logo2:hover {
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    transition: 0.4s; }
+
+a .logo {
+  width: 180px;
+  height: 140px; }
+  a .logo:hover {
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    transition: 0.4s; }
+
+a .socialMedia {
+  width: 55px;
+  height: 55px; }
+
+.logo2 {
+  width: 235px;
+  height: 180px; }
+
+.logo {
+  width: 235px;
+  height: 180px; }
+
+p {
+  font-family: 'Gotham';
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-align: justify; }
+  p .songdesc {
+    margin: 3%; }
+
+h1 {
+  font-size: 30px;
+  font-family: 'Timeless';
+  font-weight: lighter;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); }
+
+article {
+  width: 100%;
+  overflow: hidden; }
+
+h2 {
+  font-family: 'Gotham';
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 100%;
+  overflow: hidden; }
+
+h3 {
+  font-family: 'Gotham';
+  font-size: 25px;
+  font-weight: medium;
+  margin-left: 10px; }
+
+.galedesc {
+  margin: 2%;
+  font-size: 15px;
+  text-align: justify; }
+
+hr {
+  width: 100%;
+  color: lightgray;
+  margin: 0; }
+
+fieldset {
+  background: rgba(202, 202, 202, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(202, 202, 202, 0.3);
+  display: flex;
+  flex-flow: column wrap;
+  overflow: auto;
+  padding: 3%;
+  padding-top: 1%;
+  margin: 1%;
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+textarea {
+  width: 100%;
+  font-family: 'Gotham';
+  font-size: 15px;
+  font-weight: lighter;
+  margin: 1%;
+  padding: 1%; }
+
+span {
+  font-family: 'Gotham';
+  font-size: 15px;
+  font-weight: bold;
+  margin: 1%;
+  margin-right: 0;
+  padding-top: 1%;
+  align-self: flex-start; }
+
+input {
+  width: 100%;
+  margin: 1%;
+  font-family: 'Gotham';
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 1%; }
+
+form .button {
+  width: 40%;
+  margin-bottom: 25px; }
+
+form .label {
+  display: flex;
+  flex-direction: column; }
+
+form .labelArea {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding-right: 2%; }
+
+iframe {
+  width: 100%;
+  box-shadow: 0 0 10px black; }
+
+footer {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  margin-top: auto; }
+
+.container2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 16px; }
+  .container2 li {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    list-style: none; }
+    .container2 li a:hover {
+      filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+      transition: 0.4s; }
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: center; }
+
+button.navbar-toggler {
+  background-color: none;
+  border: none; }
+
+@media (min-width: 250px) {
+  .nav-item {
+    justify-content: flex-start; }
+  a .logo {
+    display: none; }
+  .container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap-reverse; }
+    .container4 .noSiente {
+      display: flex;
+      justify-content: center;
+      flex-flow: column wrap; }
+  .amuse {
+    margin: 3%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto; }
+  .songsBox2 {
+    padding: 2%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+  iframe {
+    height: 180px; } }
+
+@media (min-width: 400px) {
+  iframe {
+    height: 210px; } }
+
+@media (max-width: 470px) {
+  h2 {
+    font-size: 25px; } }
+
+@media (min-width: 506px) {
+  .info {
+    height: 45px; } }
+
+@media (min-width: 665px) {
+  .songsBox1 {
+    flex-flow: row nowrap; }
+  .amuse {
+    margin: 1%; }
+  iframe {
+    height: 300px; }
+  .galedesc {
+    font-size: 18px; } }
+
+@media (min-width: 790px) {
+  fieldset {
+    height: 760px; } }
+
+@media (max-width: 992px) {
+  .point {
+    display: none; } }
+
+@media (min-width: 992px) {
+  header {
+    height: 600 px; }
+  .nav-item {
+    justify-content: center; }
+  a .logo2 {
+    display: none; }
+  a .logo {
+    display: flex; }
+  .navbar-nav {
+    justify-content: space-around; }
+  .container4 .noSiente {
+    display: flex;
+    justify-content: flex-end; }
+  iframe {
+    height: 450px; }
+  form .label {
+    flex-direction: row; }
+  fieldset {
+    margin: 2%;
+    height: 680px; }
+  div.info {
+    height: 55px; }
+  span {
+    font-size: 20px; }
+  .galeriaFotos {
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 4;
+    grid-template-areas: "img1 img1 img3 img3" "img2 img2 img3 img3" "img4 img4 img4 img4" "none none none none"; }
+  .img1 {
+    grid-area: img1; }
+  .img2 {
+    grid-area: img2; }
+  .img3 {
+    grid-area: img3; }
+  .img4 {
+    grid-area: img4; }
+  .galedesc {
+    font-size: 25px; }
+  .songsBox13 {
+    flex-flow: row nowrap; } }
+
+@media (min-width: 1218px) {
+  fieldset {
+    height: 750px; } }
+
+@media (min-width: 1300px) {
+  a .logo {
+    width: 235px;
+    height: 180px; }
+  .logo {
+    width: 235px;
+    height: 180px; }
+  .navbar-nav {
+    justify-content: space-around; }
+  .nav-item {
+    width: 235px; }
+  .nav-link {
+    font-size: 2.1rem; }
+  .new .container4 {
+    flex-flow: row; }
+  iframe {
+    height: 600px; }
+  fieldset {
+    height: 820px; }
+  .songsBox12 {
+    flex-flow: row nowrap;
+    align-items: flex-start; } }

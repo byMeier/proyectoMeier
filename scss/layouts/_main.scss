@@ -1,0 +1,356 @@
+body {
+	background-color: #f4f1e9a1;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	.galeria {
+		background-image: url(../assets/img/fondo14.png);
+	}
+	.fechas {
+		background-image: url(../assets/img/fondo10.png);
+	}
+	.discografia {
+		background-image: url(../assets/img/fondo12.png);
+	}
+	.contacto {
+		background-image: url(../assets/img/fondo3.png);
+	}
+}
+div {
+	&.info {
+		height: 70px;
+	}
+	&.container-fluid {
+		display: flex;
+		flex-wrap: inherit;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.song {
+		width: 100%;
+		overflow: hidden;
+		box-shadow: 0 0 5px black;
+		align-self: center;
+	}
+	.ownsong {
+		width: 220px;
+		height: 220px;
+		box-shadow: 0 0 5px black;
+	}
+	.amuse {
+		&:hover {
+			box-shadow: 0 0 5px black;
+			transition: 0.4s;
+		}
+	}
+	.foto {
+		box-shadow: 0 0 5px black;
+		width: 100%;
+		overflow: hidden;
+		align-self: center;
+		margin-right: 1%;
+	}
+	.fotoGaleria {
+		width: 100%;
+		box-shadow: 0 0 5px black;
+	}
+	.title {
+		text-align: center;
+		margin: 1%;
+	}
+}
+.arrowContainer {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.arrowImg {
+	width: 50px;
+	height: 50px;
+}
+main {
+	display: flex;
+	flex-wrap: row nowrap;
+	justify-content: center;
+}
+section {
+	.container3 {
+		display: flex;
+		flex-flow: column wrap;
+	}
+	.mainTitle {
+		font-size: 30px;
+		font-family: 'Timeless';
+		font-weight: lighter;
+		text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+		text-align: center;
+		padding-top: 18px;
+	}
+	.title {
+		text-align: center;
+		margin: 2%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.new {
+	width: 100%;
+	overflow: hidden;
+	.container4 {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.container5 {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+	}
+	.title {
+		margin-bottom: 0;
+	}
+}
+.songsBox1 {
+	background: rgba(202, 202, 202, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(202, 202, 202, 0.3);
+	display: flex;
+	flex-flow: column wrap;
+	overflow: hidden;
+	align-items: flex-start;
+	padding: 4%;
+	margin: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.songsBox12 {
+	background: rgba(202, 202, 202, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(202, 202, 202, 0.3);
+	display: flex;
+	flex-flow: column wrap;
+	overflow: hidden;
+	align-items: center;
+	padding: 4%;
+	margin: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.songsBox13 {
+	background: rgba(202, 202, 202, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(202, 202, 202, 0.3);
+	display: flex;
+	flex-flow: column wrap;
+	overflow: hidden;
+	align-items: center;
+	padding: 4%;
+	margin: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.songsBox2 {
+	background: rgba(202, 202, 202, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(202, 202, 202, 0.3);
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	overflow: hidden;
+	padding: 3%;
+	padding-top: 1%;
+	margin: 2%;
+	width: 97%;
+	.videoTitle {
+		font-size: 25px;
+		margin-bottom: 1%;
+		text-align: center;
+	}
+}
+.container4 {
+	.noSiente {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+.amuse {
+	width: 220px;
+	height: 220px;
+	display: block;
+	margin: 2%;
+	margin-left: 1%;
+}
+.galeriaFotos {
+	background: rgba(202, 202, 202, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(202, 202, 202, 0.3);
+	overflow: hidden;
+	padding: 1%;
+	margin: 1%;
+	width: 98%;
+	.marginFoto {
+		margin: 1%;
+	}
+}
+a {
+	.logo2 {
+		width: 235px;
+		height: 180px;
+		margin-top: 10px;
+		&:hover {
+			filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+			transition: 0.4s;
+		}
+	}
+	.logo {
+		width: 180px;
+		height: 140px;
+		&:hover {
+			filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+			transition: 0.4s;
+		}
+	}
+	.socialMedia {
+		width: 55px;
+		height: 55px;
+	}
+}
+.logo2 {
+	width: 235px;
+	height: 180px;
+}
+.logo {
+	width: 235px;
+	height: 180px;
+}
+p {
+	font-family: 'Gotham';
+	font-weight: lighter;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: justify;
+	.songdesc {
+		margin: 3%;
+	}
+}
+h1 {
+	font-size: 30px;
+	font-family: 'Timeless';
+	font-weight: lighter;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+article {
+	width: 100%;
+	overflow: hidden;
+}
+h2 {
+	font-family: 'Gotham';
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	width: 100%;
+	overflow: hidden;
+}
+h3 {
+	font-family: 'Gotham';
+	font-size: 25px;
+	font-weight: medium;
+	margin-left: 10px;
+}
+.galedesc {
+	margin: 2%;
+	font-size: 15px;
+	text-align: justify;
+}
+hr {
+	width: 100%;
+	color: rgb(211, 211, 211);
+	margin: 0;
+}
+fieldset {
+	background: rgba(202, 202, 202, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(202, 202, 202, 0.3);
+	display: flex;
+	flex-flow: column wrap;
+	overflow: auto;
+	padding: 3%;
+	padding-top: 1%;
+	margin: 1%;
+	width: 90%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+textarea {
+	width: 100%;
+	font-family: 'Gotham';
+	font-size: 15px;
+	font-weight: lighter;
+	margin: 1%;
+	padding: 1%;
+}
+span {
+	font-family: 'Gotham';
+	font-size: 15px;
+	font-weight: bold;
+	margin: 1%;
+	margin-right: 0;
+	padding-top: 1%;
+	align-self: flex-start;
+}
+input {
+	width: 100%;
+	margin: 1%;
+	font-family: 'Gotham';
+	font-size: 15px;
+	font-weight: lighter;
+	padding: 1%;
+}
+form {
+	.button {
+		width: 40%;
+		margin-bottom: 25px;
+	}
+	.label {
+		display: flex;
+		flex-direction: column;
+	}
+	.labelArea {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		padding-right: 2%;
+	}
+}
+iframe {
+	width: 100%;
+	box-shadow: 0 0 10px black;
+}

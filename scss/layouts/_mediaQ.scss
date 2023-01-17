@@ -1,0 +1,199 @@
+    @media (min-width:250px){
+        .nav-item{
+        justify-content: flex-start;
+		}
+        a {
+            .logo {
+                display: none;
+            }
+        }
+        .container4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+            flex-wrap: wrap-reverse;
+            .noSiente {
+                display: flex;
+                justify-content: center;
+                flex-flow: column wrap;
+            }
+        }
+        .amuse {
+            margin: 3%;
+            margin-top: 5%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .songsBox2 {
+            padding: 2%;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        iframe {
+            height: 180px;
+        }
+	}
+
+    @media(min-width:400px) {
+        iframe{
+            height: 210px;
+        }
+    }
+
+    @media(max-width:470px) {
+        h2{
+            font-size: 25px;
+        }
+    }
+
+    @media (min-width:506px) {
+        .info{
+            height: 45px;
+        }
+    }
+
+    @media (min-width:665px){
+        .songsBox1{
+            flex-flow: row nowrap;
+        }
+    
+        .amuse{
+            margin: 1%;
+        }
+    
+        iframe{
+            height: 300px;
+        }
+        .galedesc{
+            font-size: 18px;
+        }
+    }
+
+    @media (min-width:790px){
+        fieldset{
+            height: 760px;
+        }
+    }
+
+    @media (max-width:992px){
+        .point{
+            display: none;
+        }
+    
+    }
+
+    @media(min-width:992px) {
+        header{
+            height: 600 px;
+        }
+        .nav-item {
+            justify-content: center;
+        }
+        a {
+            .logo2 {
+                display: none;
+            }
+            .logo {
+                display: flex;
+            }
+        }
+        .navbar-nav {
+            justify-content: space-around;
+        }
+        .container4 {
+            .noSiente {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+        iframe {
+            height: 450px;
+        }
+        form {
+            .label {
+                flex-direction: row;
+            }
+        }
+        fieldset {
+            margin: 2%;
+            height: 680px;
+        }
+        div {
+            &.info {
+                height: 55px;
+            }
+        }
+        span {
+            font-size: 20px;
+        }
+        .galeriaFotos {
+            display: grid;
+            grid-template-columns: 4;
+            grid-template-rows: 4;
+            grid-template-areas: "img1 img1 img3 img3"
+                "img2 img2 img3 img3"
+                "img4 img4 img4 img4"
+                "none none none none";
+        }
+        .img1 {
+            grid-area: img1;
+        }
+        .img2 {
+            grid-area: img2;
+        }
+        .img3 {
+            grid-area: img3;
+        }
+        .img4 {
+            grid-area: img4;
+        }
+        .galedesc {
+            font-size: 25px;
+        }
+        .songsBox13 {
+            flex-flow: row nowrap;
+        }
+    }
+
+    @media (min-width:1218px){
+        fieldset{
+            height: 750px;
+        }
+    }
+
+    @media(min-width:1300px){
+        a .logo{
+            width: 235px;
+            height: 180px;
+        }
+        .logo {
+            width: 235px;
+            height: 180px;
+        }
+        .navbar-nav {
+            justify-content: space-around;
+        }
+        .nav-item {
+            width: 235px;
+        }
+        .nav-link {
+            font-size: 2.1rem;
+        }
+        .new {
+            .container4 {
+                flex-flow: row;
+            }
+        }
+        iframe {
+            height: 600px;
+        }
+        fieldset {
+            height: 820px;
+        }
+        .songsBox12 {
+            flex-flow: row nowrap;
+            align-items: flex-start;
+        }
+    }
