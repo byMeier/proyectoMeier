@@ -46,7 +46,7 @@ header {
     .navBarMini li a {
       display: inline-block;
       font-size: 40px;
-      font-family: 'Timeless';
+      font-family: "Timeless";
       font-weight: bold;
       text-decoration: none;
       color: black; }
@@ -77,7 +77,6 @@ header {
 .nav-link {
   display: inline-block;
   font-size: 40px;
-  font-family: 'Timeless';
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -114,6 +113,14 @@ body {
     background-image: url(../assets/img/fondo12.png); }
   body .contacto {
     background-image: url(../assets/img/fondo3.png); }
+
+.glassmorphism, .songsBox1, .songsBox12, .songsBox13, .songsBox2, .galeriaFotos, fieldset {
+  background: rgba(202, 202, 202, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(202, 202, 202, 0.3); }
 
 div.info {
   height: 70px; }
@@ -175,7 +182,7 @@ section .container3 {
 
 section .mainTitle {
   font-size: 30px;
-  font-family: 'Timeless';
+  font-family: "Timeless";
   font-weight: lighter;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   text-align: center;
@@ -203,13 +210,7 @@ section .title {
   .new .title {
     margin-bottom: 0; }
 
-.songsBox1 {
-  background: rgba(202, 202, 202, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(202, 202, 202, 0.3);
+.songsBox1, .songsBox12, .songsBox13 {
   display: flex;
   flex-flow: column wrap;
   overflow: hidden;
@@ -221,46 +222,12 @@ section .title {
   width: 90%; }
 
 .songsBox12 {
-  background: rgba(202, 202, 202, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(202, 202, 202, 0.3);
-  display: flex;
-  flex-flow: column wrap;
-  overflow: hidden;
-  align-items: center;
-  padding: 4%;
-  margin: 2%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%; }
+  align-items: center; }
 
 .songsBox13 {
-  background: rgba(202, 202, 202, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(202, 202, 202, 0.3);
-  display: flex;
-  flex-flow: column wrap;
-  overflow: hidden;
-  align-items: center;
-  padding: 4%;
-  margin: 2%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%; }
+  align-items: center; }
 
 .songsBox2 {
-  background: rgba(202, 202, 202, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(202, 202, 202, 0.3);
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -286,12 +253,6 @@ section .title {
   margin-left: 1%; }
 
 .galeriaFotos {
-  background: rgba(202, 202, 202, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(202, 202, 202, 0.3);
   overflow: hidden;
   padding: 1%;
   margin: 1%;
@@ -327,7 +288,7 @@ a .socialMedia {
   height: 180px; }
 
 p {
-  font-family: 'Gotham';
+  font-family: "Gotham";
   font-weight: lighter;
   margin-left: 10px;
   margin-right: 10px;
@@ -338,7 +299,7 @@ p {
 
 h1 {
   font-size: 30px;
-  font-family: 'Timeless';
+  font-family: "Timeless";
   font-weight: lighter;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); }
 
@@ -347,7 +308,7 @@ article {
   overflow: hidden; }
 
 h2 {
-  font-family: 'Gotham';
+  font-family: "Gotham";
   font-size: 40px;
   font-weight: bold;
   margin-left: 10px;
@@ -357,7 +318,7 @@ h2 {
   overflow: hidden; }
 
 h3 {
-  font-family: 'Gotham';
+  font-family: "Gotham";
   font-size: 25px;
   font-weight: medium;
   margin-left: 10px; }
@@ -373,12 +334,6 @@ hr {
   margin: 0; }
 
 fieldset {
-  background: rgba(202, 202, 202, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(202, 202, 202, 0.3);
   display: flex;
   flex-flow: column wrap;
   overflow: auto;
@@ -391,14 +346,14 @@ fieldset {
 
 textarea {
   width: 100%;
-  font-family: 'Gotham';
+  font-family: "Gotham";
   font-size: 15px;
   font-weight: lighter;
   margin: 1%;
   padding: 1%; }
 
 span {
-  font-family: 'Gotham';
+  font-family: "Gotham";
   font-size: 15px;
   font-weight: bold;
   margin: 1%;
@@ -409,7 +364,7 @@ span {
 input {
   width: 100%;
   margin: 1%;
-  font-family: 'Gotham';
+  font-family: "Gotham";
   font-size: 15px;
   font-weight: lighter;
   padding: 1%; }
@@ -505,8 +460,6 @@ button.navbar-toggler {
     height: 45px; } }
 
 @media (min-width: 665px) {
-  .songsBox1 {
-    flex-flow: row nowrap; }
   .amuse {
     margin: 1%; }
   iframe {
@@ -567,7 +520,9 @@ button.navbar-toggler {
 
 @media (min-width: 1218px) {
   fieldset {
-    height: 750px; } }
+    height: 750px; }
+  .songsBox1, .songsBox12, .songsBox13 {
+    flex-flow: row nowrap; } }
 
 @media (min-width: 1300px) {
   a .logo {

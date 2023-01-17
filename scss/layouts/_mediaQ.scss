@@ -55,9 +55,6 @@
     }
 
     @media (min-width:665px){
-        .songsBox1{
-            flex-flow: row nowrap;
-        }
     
         .amuse{
             margin: 1%;
@@ -154,12 +151,15 @@
         }
         .songsBox13 {
             flex-flow: row nowrap;
-        }
+        }   
     }
 
     @media (min-width:1218px){
         fieldset{
             height: 750px;
+        }
+        .songsBox1{
+            flex-flow: row nowrap;
         }
     }
 

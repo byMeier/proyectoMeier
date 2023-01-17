@@ -36,7 +36,7 @@ header {
 		a {
 			display: inline-block;
 			font-size: 40px;
-			font-family: 'Timeless';
+			font-family: $typo_title;
 			font-weight: bold;
 			text-decoration: none;
 			color: black;
@@ -70,11 +70,10 @@ header {
 .nav-link {
 	display: inline-block;
 	font-size: 40px;
-	font-family: 'Timeless';
 	font-weight: bold;
 	text-decoration: none;
 	color: black;
-	font-family: "Timeless";
+	font-family: $typo_title;
 	font-weight: bold;
 	font-size: 1.5rem;
 	&:hover {
