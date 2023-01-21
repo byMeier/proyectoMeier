@@ -1,9 +1,6 @@
 header {
 	width: 100%;
 	overflow: hidden;
-	background-image: url(../assets/img/fondo6.png);
-	background-repeat: no-repeat;
-	background-size: cover;
 	position: relative;
 	.arrow {
 		width: 50px;
@@ -92,4 +89,14 @@ header {
 }
 ol, ul {
 	padding: 0;
+}
+
+video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 105%;
+	min-height: 100%;
+	transform: translateX(calc((100% - 100vw) / 2));
+	z-index: -2;
 }

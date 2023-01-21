@@ -14,9 +14,6 @@
 header {
   width: 100%;
   overflow: hidden;
-  background-image: url(../assets/img/fondo6.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative; }
   header .arrow {
     width: 50px;
@@ -99,20 +96,21 @@ header {
 ol, ul {
   padding: 0; }
 
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2; }
+
 body {
   background-color: #f4f1e9a1;
   position: relative;
   display: flex;
   flex-direction: column;
   min-height: 100vh; }
-  body .galeria {
-    background-image: url(../assets/img/fondo14.png); }
-  body .fechas {
-    background-image: url(../assets/img/fondo10.png); }
-  body .discografia {
-    background-image: url(../assets/img/fondo12.png); }
-  body .contacto {
-    background-image: url(../assets/img/fondo3.png); }
 
 .glassmorphism, .songsBox1, .songsBox12, .songsBox13, .songsBox2, .galeriaFotos, fieldset {
   background: rgba(202, 202, 202, 0.2);
@@ -289,7 +287,7 @@ a .socialMedia {
 
 p {
   font-family: "Gotham";
-  font-weight: lighter;
+  font-weight: light;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
@@ -350,7 +348,9 @@ textarea {
   font-size: 15px;
   font-weight: lighter;
   margin: 1%;
-  padding: 1%; }
+  padding: 1%;
+  max-height: 200px;
+  min-height: 200px; }
 
 span {
   font-family: "Gotham";
@@ -419,6 +419,11 @@ button.navbar-toggler {
   background-color: none;
   border: none; }
 
+button.btn.btn-light {
+  margin: 2%;
+  margin-top: 0;
+  margin-right: 0; }
+
 @media (min-width: 250px) {
   .nav-item {
     justify-content: flex-start; }
@@ -465,7 +470,9 @@ button.navbar-toggler {
   iframe {
     height: 300px; }
   .galedesc {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .songsBox1, .songsBox12, .songsBox13 {
+    flex-flow: row nowrap; } }
 
 @media (min-width: 790px) {
   fieldset {
@@ -473,7 +480,9 @@ button.navbar-toggler {
 
 @media (max-width: 992px) {
   .point {
-    display: none; } }
+    display: none; }
+  .songsBox12 {
+    flex-flow: column wrap; } }
 
 @media (min-width: 992px) {
   header {
@@ -521,7 +530,7 @@ button.navbar-toggler {
 @media (min-width: 1218px) {
   fieldset {
     height: 750px; }
-  .songsBox1, .songsBox12, .songsBox13 {
+  .songsBox12 {
     flex-flow: row nowrap; } }
 
 @media (min-width: 1300px) {
@@ -546,3 +555,7 @@ button.navbar-toggler {
   .songsBox12 {
     flex-flow: row nowrap;
     align-items: flex-start; } }
+
+@media (min-width: 1600px) {
+  p {
+    font-size: 20px; } }

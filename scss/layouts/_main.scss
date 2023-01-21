@@ -4,18 +4,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	.galeria {
-		background-image: url(../assets/img/fondo14.png);
-	}
-	.fechas {
-		background-image: url(../assets/img/fondo10.png);
-	}
-	.discografia {
-		background-image: url(../assets/img/fondo12.png);
-	}
-	.contacto {
-		background-image: url(../assets/img/fondo3.png);
-	}
 }
 .glassmorphism{
 	background: rgba(202, 202, 202, 0.2);
@@ -216,7 +204,7 @@ a {
 }
 p {
 	font-family: $typo_body;
-	font-weight: lighter;
+	font-weight: light;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
@@ -280,6 +268,8 @@ textarea {
 	font-weight: lighter;
 	margin: 1%;
 	padding: 1%;
+	max-height: 200px;
+	min-height: 200px;
 }
 span {
 	font-family: $typo_body;
