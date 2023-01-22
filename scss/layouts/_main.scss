@@ -79,15 +79,15 @@ section {
 	}
 	.mainTitle {
 		font-size: 30px;
-		font-family: $typo_title;
+		font-family: $typo_body;
 		font-weight: lighter;
-		text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+		text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 		text-align: center;
-		padding-top: 18px;
+		padding-top: 8px;
 	}
 	.title {
 		text-align: center;
-		margin: 2%;
+		margin: 1%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -121,6 +121,7 @@ section {
 	margin: 2%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 30px;
 	width: 90%;
 }
 .songsBox12 {
@@ -216,9 +217,9 @@ p {
 }
 h1 {
 	font-size: 30px;
-	font-family: $typo_title;
-	font-weight: lighter;
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+	font-family: $typo_body;
+	font-weight: normal;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 article {
 	width: 100%;
@@ -230,7 +231,7 @@ h2 {
 	font-weight: bold;
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-top: 5px;
+	margin-top: 10px;
 	width: 100%;
 	overflow: hidden;
 }

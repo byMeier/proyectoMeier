@@ -4,10 +4,8 @@
   box-sizing: border-box; }
 
 @font-face {
-  font-family: 'Timeless';
-  src: url("../assets/fonts/Timeless-Bold.ttf") format("truetype");
-  src: url("../assets/fonts/Timeless.ttf") format("truetype");
-  font-family: 'Gotham';
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Gotham', sans-serif;
   src: url("../assets/fonts/Gotham-Font/Gotham-Bold.otf") format("truetype");
   src: url("../assets/fonts/Gotham-Font/GothamMedium.ttf") format("truetype"); }
 
@@ -43,10 +41,11 @@ header {
     .navBarMini li a {
       display: inline-block;
       font-size: 40px;
-      font-family: "Timeless";
+      font-family: "DM Serif Display", serif;
       font-weight: bold;
       text-decoration: none;
-      color: black; }
+      color: black;
+      letter-spacing: 0.10rem; }
       .navBarMini li a:hover {
         text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
         transition: 0.4s; }
@@ -74,12 +73,12 @@ header {
 .nav-link {
   display: inline-block;
   font-size: 40px;
-  font-weight: bold;
   text-decoration: none;
   color: black;
-  font-family: "Timeless";
-  font-weight: bold;
-  font-size: 1.5rem; }
+  font-family: "DM Serif Display", serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  letter-spacing: 0.10rem; }
   .nav-link:hover {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     transition: 0.4s; }
@@ -100,7 +99,7 @@ video {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 105%;
+  min-width: 100%;
   min-height: 100%;
   transform: translateX(calc((100% - 100vw) / 2));
   z-index: -2; }
@@ -181,15 +180,15 @@ section .container3 {
 
 section .mainTitle {
   font-size: 30px;
-  font-family: "Timeless";
+  font-family: "Gotham", sans-serif;
   font-weight: lighter;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
-  padding-top: 18px; }
+  padding-top: 8px; }
 
 section .title {
   text-align: center;
-  margin: 2%;
+  margin: 1%;
   margin-left: auto;
   margin-right: auto; }
 
@@ -218,6 +217,7 @@ section .title {
   margin: 2%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
   width: 90%; }
 
 .songsBox12 {
@@ -287,7 +287,7 @@ a .socialMedia {
   height: 180px; }
 
 p {
-  font-family: "Gotham";
+  font-family: "Gotham", sans-serif;
   font-weight: light;
   margin-left: 10px;
   margin-right: 10px;
@@ -298,26 +298,26 @@ p {
 
 h1 {
   font-size: 30px;
-  font-family: "Timeless";
-  font-weight: lighter;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); }
+  font-family: "Gotham", sans-serif;
+  font-weight: normal;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 article {
   width: 100%;
   overflow: hidden; }
 
 h2 {
-  font-family: "Gotham";
+  font-family: "Gotham", sans-serif;
   font-size: 40px;
   font-weight: bold;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   width: 100%;
   overflow: hidden; }
 
 h3 {
-  font-family: "Gotham";
+  font-family: "Gotham", sans-serif;
   font-size: 25px;
   font-weight: medium;
   margin-left: 10px; }
@@ -345,7 +345,7 @@ fieldset {
 
 textarea {
   width: 100%;
-  font-family: "Gotham";
+  font-family: "Gotham", sans-serif;
   font-size: 15px;
   font-weight: lighter;
   margin: 1%;
@@ -354,7 +354,7 @@ textarea {
   min-height: 200px; }
 
 span {
-  font-family: "Gotham";
+  font-family: "Gotham", sans-serif;
   font-size: 15px;
   font-weight: bold;
   margin: 1%;
@@ -365,7 +365,7 @@ span {
 input {
   width: 100%;
   margin: 1%;
-  font-family: "Gotham";
+  font-family: "Gotham", sans-serif;
   font-size: 15px;
   font-weight: lighter;
   padding: 1%; }
@@ -411,6 +411,10 @@ footer {
       filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
       transition: 0.4s; }
 
+h5 {
+  text-align: center;
+  padding-bottom: 20px; }
+
 .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
   display: flex;
   flex-wrap: inherit;
@@ -425,10 +429,6 @@ button.btn.btn-light {
   margin: 2%;
   margin-top: 0;
   margin-right: 0; }
-
-@media (max-width: 100px) {
-  h1, a {
-    font-family: "Timeless"; } }
 
 @media (min-width: 250px) {
   .nav-item {
