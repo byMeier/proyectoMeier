@@ -184,7 +184,8 @@ section .mainTitle {
   font-weight: lighter;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
-  padding-top: 8px; }
+  padding-top: 8px;
+  padding-right: 20px; }
 
 section .title {
   text-align: center;
@@ -488,7 +489,9 @@ button.btn.btn-light {
   .point {
     display: none; }
   .songsBox12 {
-    flex-flow: column wrap; } }
+    flex-flow: column wrap; }
+  .songsBox1, .songsBox12, .songsBox13 {
+    margin-top: 5%; } }
 
 @media (min-width: 992px) {
   header {
