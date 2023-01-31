@@ -60,7 +60,7 @@
                                 alt="Logo Meier"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../pages/fechas.html">CONCIERTOS</a>
+                                <a class="nav-link active" aria-current="page" href="../pages/conciertos.html">CONCIERTOS</a>
                             </li>
                             <li>
                                 <img class="point" src="../assets/img/puntonegro.png" alt="Punto Negro">
@@ -82,24 +82,25 @@
     </header>
 
 
-    <main  id="main">
+    <main id="main">
     <!-- Contenido de página -->    
+        <div class="info">
+            <h1 class="title">INFORMACIÓN DE CONTACTO</h1>
+        </div>
         <fieldset>
-            <div class="info">
-                <h1 class="title">INFORMACIÓN DE CONTACTO</h1>
-            </div>
-            <form action="" method="post">
+            <form action="https://formsubmit.co/mateo.leotta@gmail.com" method="post">
+                <input type="hidden" name="_captcha" value="false">
                 <label class="label" for="name">
                     <span>Nombre/Empresa:</span>
-                    <input type="text" id="name" placeholder="Ingrese aquí su Nombre/Empresa" required>
+                    <input type="text" name="name" id="name" placeholder="Nombre/Empresa" required>
                 </label>
                 <label class="label" for="mail">
                     <span>Email:</span>
-                    <input type="email" id="mail" placeholder="Ingrese aquí su Email" required>
+                    <input type="email" name="email" id="mail" placeholder="example@gmail.com" required>
                 </label>
                 <label class="label" for="number">
                     <span>Teléfono:</span>
-                    <input type="text" id="number" placeholder="Ingrese aquí su número de Teléfono" required>
+                    <input type="text" id="number" placeholder="11 2345-6789" required>
                 </label>
                 <label class="labelArea" for="consulta">
                     <span>Deje aquí su propuesta/consulta y le responderemos a la brevedad:</span>
