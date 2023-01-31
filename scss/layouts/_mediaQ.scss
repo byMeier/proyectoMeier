@@ -36,6 +36,12 @@
         }
 	}
 
+    @media(max-width:360px) {
+        .nav-link{
+            font-size: 25px;
+        }
+    }
+
     @media(min-width:400px) {
         iframe{
             height: 210px;
@@ -69,7 +75,9 @@
         .songsBox1{
             flex-flow: row nowrap;
         }        
-
+        .songsBox13{
+            flex-flow: column wrap;
+        }      
     }
 
     @media (min-width:790px){
@@ -94,9 +102,6 @@
             margin: 0;
             justify-content: flex-start;
         }
-        .nav-link.active{
-            font-size: 30px;
-        }
         .navbar-nav{
             justify-content: flex-start;
         }
@@ -120,6 +125,9 @@
         .navbar-nav {
             justify-content: space-around;
         }
+        .nav-link{
+            font-size: 1.5rem;
+        }
         .container4 {
             .noSiente {
                 display: flex;
@@ -135,7 +143,6 @@
             }
         }
         fieldset {
-            margin-top: 5%;
             height: 600px;
         }
         div {

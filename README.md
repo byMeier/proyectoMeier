@@ -1,14 +1,18 @@
 <p align="center"><img width="250px" src="https://i.postimg.cc/Y0Bx3vx3/fondomeierlive2.png" alt="Meier" title="Meier Official Website"></p>
 
-<h1 align="center">Proyecto: Meier Official Website</h1>
+<h1 align="center">Project: Meier Official Website</h1>
 
-## Autor - Mateo Leotta Meier
-Proyecto final del curso de Desarrollo Web de Coderhouse
+## Autor / Author - Mateo Leotta Meier
+Proyecto final del curso de Desarrollo Web de Coderhouse.
 
-## Descripción
+Final project of the Coderhouse Web Development course
+
+## Descripción / Description
 Sitio Web Oficial de Meier, aquí puedes enterarte de sus próximos lanzamientos y shows, además de su historia e información exclusiva del artista argentino.
 
-## Tecnologías
+Official Meier Website, here you can find out about his upcoming releases and shows, as well as his history and exclusive information on the Argentine artist.
+
+## Tecnologías / Tecnology
 
 <p align="center"><img width="100%" src="https://i.postimg.cc/zG3hmh80/tecnologias.png" alt="HTML5, CSS3, SASS Y BOOTSTRAP" title="HTML5, CSS3, SASS Y BOOTSTRAP"></p>
 
@@ -16,9 +20,11 @@ Sitio Web Oficial de Meier, aquí puedes enterarte de sus próximos lanzamientos
 
 <p align="center"><img width="100%" src="https://i.postimg.cc/9FZHF8bk/software.png" alt="Figma, Visual Studio Code, Node.js y Photoshop" title="Figma, Visual Studio Code, Node.js y Photoshop"></p>
 
-## Desarrollo 
+## Desarrollo / Development
 
 **NabVar Responsive con Bootstrap y Video Animado de Fondo**
+
+**Responsive Navbar with Bootstrap and Animated Video Background**
 
 *HTML*
 
@@ -189,6 +195,8 @@ video {
 
 **Cards Semi-transparentes con Flexbox, Filter y SASS**
 
+**Semi-transparent Cards with Flexbox, Filter and SASS**
+
 *HTML*
 
 ```html
@@ -233,7 +241,7 @@ article {
 		justify-content: flex-end;
 	}
 }
-.glassmorphism{
+@mixin glassmorphism{
 	background: rgba(202, 202, 202, 0.5);
 	border-radius: 16px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
@@ -242,7 +250,7 @@ article {
 	border: 1px solid rgba(202, 202, 202, 0.3);
 }
 .songsBox1 {
-	@extend .glassmorphism;
+	@include glassmorphism;
 	display: flex;
 	flex-flow: column wrap;
 	overflow: hidden;
@@ -256,11 +264,11 @@ article {
 }
 ```
 
-## Tipografías
-**- NavBar: DM Serif Display, serif.**
+## Tipografías / Fonts
+**- Barra de Navegación/NavBar: DM Serif Display, serif.**
 <p align="center"><img width="100%" src="https://i.postimg.cc/3wTNqV0m/dm-serif-display-font-large-preview.png" alt="Timeless, serif" title="Timeless, serif"></p>
 
-**- Headings y Párrafos: Gotham, sans-serif.**
+**- Títulos/Headings & Párrafos/Paragraphs: Gotham, sans-serif.**
 <p align="center"><img width="100%" src="https://i.postimg.cc/8zySqFtk/Gotham-Font-768x430.webp" alt="Gotham, sans-serif" title="Gotham, sans-serif"></p>
 
  <h1 align="center">Copyright ℗Meier 2023</h1>

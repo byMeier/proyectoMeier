@@ -72,12 +72,11 @@ header {
 
 .nav-link {
   display: inline-block;
-  font-size: 40px;
   text-decoration: none;
   color: black;
   font-family: "DM Serif Display", serif;
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size: 40px;
   letter-spacing: 0.10rem; }
   .nav-link:hover {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -112,7 +111,10 @@ body {
   min-height: 100vh; }
 
 div.info {
-  height: 70px; }
+  display: flex;
+  overflow: hidden;
+  margin: 1%;
+  align-items: center; }
 
 div.container-fluid {
   display: flex;
@@ -166,25 +168,29 @@ main {
   flex-flow: column wrap;
   align-items: center; }
 
-section .container3 {
-  display: flex;
-  flex-flow: column wrap; }
-
-section .mainTitle {
-  font-size: 30px;
-  font-family: "Gotham", sans-serif;
-  font-weight: lighter;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 20px; }
-
-section .title {
-  text-align: center;
-  margin: 1%;
-  margin-left: auto;
-  margin-right: auto; }
+section {
+  width: 100%; }
+  section .container6 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center; }
+  section .container3 {
+    display: flex;
+    flex-flow: column wrap; }
+  section .mainTitle {
+    font-size: 30px;
+    font-family: "Gotham", sans-serif;
+    font-weight: lighter;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px; }
+  section .title {
+    text-align: center;
+    margin: 1%;
+    margin-left: auto;
+    margin-right: auto; }
 
 .new {
   width: 100%;
@@ -224,7 +230,8 @@ section .title {
   align-items: center; }
 
 .songsBox13 {
-  align-items: center; }
+  align-items: center;
+  margin-top: 2%; }
 
 .songsBox2 {
   background: rgba(202, 202, 202, 0.5);
@@ -242,7 +249,7 @@ section .title {
   margin: 2%;
   width: 97%; }
   .songsBox2 .videoTitle {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 1%;
     text-align: center; }
 
@@ -359,7 +366,9 @@ fieldset {
   margin: 1%;
   width: 90%;
   margin-top: 5%;
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto; }
 
 textarea {
   width: 100%;
@@ -478,6 +487,10 @@ button.btn.btn-light {
   iframe {
     height: 180px; } }
 
+@media (max-width: 360px) {
+  .nav-link {
+    font-size: 25px; } }
+
 @media (min-width: 400px) {
   iframe {
     height: 210px; } }
@@ -498,7 +511,9 @@ button.btn.btn-light {
   .galedesc {
     font-size: 18px; }
   .songsBox1, .songsBox12, .songsBox13 {
-    flex-flow: row nowrap; } }
+    flex-flow: row nowrap; }
+  .songsBox13 {
+    flex-flow: column wrap; } }
 
 @media (min-width: 790px) {
   fieldset {
@@ -516,8 +531,6 @@ button.btn.btn-light {
     overflow: hidden;
     margin: 0;
     justify-content: flex-start; }
-  .nav-link.active {
-    font-size: 30px; }
   .navbar-nav {
     justify-content: flex-start; } }
 
@@ -532,6 +545,8 @@ button.btn.btn-light {
     display: flex; }
   .navbar-nav {
     justify-content: space-around; }
+  .nav-link {
+    font-size: 1.5rem; }
   .container4 .noSiente {
     display: flex;
     justify-content: flex-end; }
@@ -540,7 +555,6 @@ button.btn.btn-light {
   form .label {
     flex-direction: row; }
   fieldset {
-    margin-top: 5%;
     height: 600px; }
   div.info {
     height: 55px; }
