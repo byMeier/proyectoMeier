@@ -1,37 +1,12 @@
 @font-face {
   font-family: 'Gotham', sans-serif;
   src: url("../assets/fonts/Gotham-Bold.otf") format("truetype");
-  font-weight: bold; }
-
-@font-face {
-  font-family: 'Gotham', sans-serif;
-  src: url("../assets/fonts/GothamMedium.ttf") format("truetype");
-  font-weight: normal; }
-
-@font-face {
-  font-family: 'Gotham', sans-serif;
-  src: url("../assets/fonts/Gotham-Bold.otf") format("truetype");
-  font-weight: bold; }
-
-@font-face {
-  font-family: 'Gotham', sans-serif;
-  src: url("../assets/fonts/GothamMedium.ttf") format("truetype");
   font-weight: normal; }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
-
-@font-face {
-  font-family: 'Gotham', sans-serif;
-  src: url("../assets/fonts/Gotham-Bold.otf") format("truetype");
-  font-weight: bold; }
-
-@font-face {
-  font-family: 'Gotham', sans-serif;
-  src: url("../assets/fonts/GothamMedium.ttf") format("truetype");
-  font-weight: normal; }
 
 header {
   width: 100%;
@@ -130,11 +105,6 @@ video {
 @font-face {
   font-family: 'Gotham', sans-serif;
   src: url("../assets/fonts/Gotham-Bold.otf") format("truetype");
-  font-weight: bold; }
-
-@font-face {
-  font-family: 'Gotham', sans-serif;
-  src: url("../assets/fonts/GothamMedium.ttf") format("truetype");
   font-weight: normal; }
 
 body {
@@ -463,11 +433,6 @@ iframe {
 @font-face {
   font-family: 'Gotham', sans-serif;
   src: url("../assets/fonts/Gotham-Bold.otf") format("truetype");
-  font-weight: bold; }
-
-@font-face {
-  font-family: 'Gotham', sans-serif;
-  src: url("../assets/fonts/GothamMedium.ttf") format("truetype");
   font-weight: normal; }
 
 footer {
@@ -505,11 +470,6 @@ h5 {
 @font-face {
   font-family: 'Gotham', sans-serif;
   src: url("../assets/fonts/Gotham-Bold.otf") format("truetype");
-  font-weight: bold; }
-
-@font-face {
-  font-family: 'Gotham', sans-serif;
-  src: url("../assets/fonts/GothamMedium.ttf") format("truetype");
   font-weight: normal; }
 
 button.navbar-toggler {
@@ -526,11 +486,6 @@ button.btn.btn-light {
 @font-face {
   font-family: 'Gotham', sans-serif;
   src: url("../assets/fonts/Gotham-Bold.otf") format("truetype");
-  font-weight: bold; }
-
-@font-face {
-  font-family: 'Gotham', sans-serif;
-  src: url("../assets/fonts/GothamMedium.ttf") format("truetype");
   font-weight: normal; }
 
 @media (min-width: 0px) {
@@ -642,7 +597,10 @@ button.btn.btn-light {
     display: grid;
     grid-template-columns: 4;
     grid-template-rows: 4;
-    grid-template-areas: "img1 img1 img3 img3" "img2 img2 img3 img3" "img4 img4 img4 img4" "none none none none"; }
+    grid-template-areas: "img1 img1 img3 img3"
+ "img2 img2 img3 img3"
+ "img4 img4 img4 img4"
+ "none none none none"; }
   .img1 {
     grid-area: img1; }
   .img2 {
