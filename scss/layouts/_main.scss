@@ -1,3 +1,5 @@
+@import "../typo";
+
 body {
 	background-color: #f4f1e9a1;
 	position: relative;
@@ -148,6 +150,7 @@ section {
 	padding: 3%;
 	padding-top: 1%;
 	margin: 2%;
+	margin-bottom: 45px;
 	width: 97%;
 	.videoTitle {
 		font-size: 30px;
@@ -173,12 +176,14 @@ section {
 	overflow: hidden;
 	padding: 1%;
 	margin: 1%;
+	margin-bottom: 45px;
 	width: 98%;
 	.marginFoto {
 		margin: 1%;
 	}
 }
 a {
+	text-decoration: none;
 	.logo2 {
 		width: 235px;
 		height: 180px;
@@ -199,6 +204,7 @@ a {
 	.socialMedia {
 		width: 55px;
 		height: 55px;
+		padding: 5%;
 	}
 }
 .logo2 {
@@ -226,6 +232,18 @@ h1 {
 	font-weight: normal;
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.titleGracias{
+	font-family: $typo_title !important;
+	font-weight: bold;
+	font-size: 50px;
+	padding: 1%;
+	margin: 1%;
+}
+.titleGracias2{
+	font-size: 30px;
+	padding: 1%;
+	margin: 1%;
+}
 article {
 	width: 100%;
 	overflow: hidden;
@@ -250,11 +268,6 @@ h3 {
 	margin: 2%;
 	font-size: 15px;
 	text-align: justify;
-}
-hr {
-	width: 100%;
-	color: rgb(211, 211, 211);
-	margin: 0;
 }
 fieldset {
 	@include glassmorphism;

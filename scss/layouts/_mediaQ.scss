@@ -1,11 +1,10 @@
+    @import "../typo";
+
     @media (min-width:0px){
         a {
         .logo {
             display: none;
         }
-        }
-        body{
-            font-family: $typo_body;
         }
     }   
 
@@ -41,6 +40,12 @@
 
     @media(max-width:360px) {
         .nav-link{
+            font-size: 25px;
+        }
+        .titleGracias{
+            font-size: 35px;
+        }
+        .titleGracias2{
             font-size: 25px;
         }
     }
@@ -186,6 +191,9 @@
         h1{
             font-size: 35px;
         }    
+        .titleGracias2{
+            font-size: 40px;
+        }
     }
 
     @media (min-width:1218px){
