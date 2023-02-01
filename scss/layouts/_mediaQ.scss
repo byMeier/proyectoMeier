@@ -4,6 +4,9 @@
             display: none;
         }
         }
+        body{
+            font-family: $typo_body;
+        }
     }   
 
     @media (min-width:250px){

@@ -1,6 +1,11 @@
 @font-face {
-	font-family: 'DM Serif Display', serif;
 	font-family: 'Gotham', sans-serif;
-	src: url("../assets/fonts/Gotham-Font/Gotham-Bold.otf") format('truetype');
-	src: url("../assets/fonts/Gotham-Font/GothamMedium.ttf") format('truetype');
+	src: url("../assets/fonts/Gotham-Bold.otf") format('truetype');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Gotham', sans-serif;
+	src: url("../assets/fonts/GothamMedium.ttf") format('truetype');
+	font-weight: normal;
 }

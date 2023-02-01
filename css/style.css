@@ -1,8 +1,12 @@
 @font-face {
-  font-family: 'DM Serif Display', serif;
   font-family: 'Gotham', sans-serif;
-  src: url("../assets/fonts/Gotham-Font/Gotham-Bold.otf") format("truetype");
-  src: url("../assets/fonts/Gotham-Font/GothamMedium.ttf") format("truetype"); }
+  src: url("../assets/fonts/Gotham-Bold.otf") format("truetype");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'Gotham', sans-serif;
+  src: url("../assets/fonts/GothamMedium.ttf") format("truetype");
+  font-weight: normal; }
 
 * {
   margin: 0;
@@ -462,7 +466,9 @@ button.btn.btn-light {
 
 @media (min-width: 0px) {
   a .logo {
-    display: none; } }
+    display: none; }
+  body {
+    font-family: "Gotham", sans-serif; } }
 
 @media (min-width: 250px) {
   .container4 {
