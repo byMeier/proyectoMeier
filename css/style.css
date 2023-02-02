@@ -178,7 +178,7 @@ section {
     flex-flow: column wrap; }
   section .mainTitle {
     font-size: 30px;
-    font-family: "Gotham", sans-serif !important;
+    font-family: "Raleway", sans-serif;
     font-weight: lighter;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -309,8 +309,9 @@ a {
   height: 180px; }
 
 p {
-  font-family: "Gotham", sans-serif !important;
-  font-weight: light;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: regular;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
@@ -320,7 +321,7 @@ p {
 
 h1 {
   font-size: 30px;
-  font-family: "Gotham", sans-serif !important;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
@@ -341,7 +342,7 @@ article {
   overflow: hidden; }
 
 h2 {
-  font-family: "Gotham", sans-serif !important;
+  font-family: "Raleway", sans-serif;
   font-size: 40px;
   font-weight: bold;
   margin-left: 10px;
@@ -351,7 +352,7 @@ h2 {
   overflow: hidden; }
 
 h3 {
-  font-family: "Gotham", sans-serif !important;
+  font-family: "Raleway", sans-serif;
   font-size: 25px;
   font-weight: medium;
   margin-left: 10px; }
@@ -382,7 +383,7 @@ fieldset {
 
 textarea {
   width: 100%;
-  font-family: "Gotham", sans-serif !important;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: lighter;
   margin: 1%;
@@ -391,7 +392,7 @@ textarea {
   min-height: 200px; }
 
 span {
-  font-family: "Gotham", sans-serif !important;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: bold;
   margin: 1%;
@@ -402,7 +403,7 @@ span {
 input {
   width: 100%;
   margin: 1%;
-  font-family: "Gotham", sans-serif !important;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: lighter;
   padding: 1%; }
@@ -465,7 +466,7 @@ button.btn.btn-light {
   margin: 2%;
   margin-top: 0;
   margin-right: 0;
-  font-family: "Gotham", sans-serif !important;
+  font-family: "Raleway", sans-serif;
   font-weight: medium; }
 
 @media (min-width: 0px) {
@@ -545,7 +546,9 @@ button.btn.btn-light {
     margin: 0;
     justify-content: flex-start; }
   .navbar-nav {
-    justify-content: flex-start; } }
+    justify-content: flex-start; }
+  p {
+    font-size: 20px; } }
 
 @media (min-width: 992px) {
   header {
