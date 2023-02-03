@@ -1,4 +1,4 @@
-<p align="center"><img width="250px" src="https://i.postimg.cc/Y0Bx3vx3/fondomeierlive2.png" alt="Meier" title="Meier Official Website"></p>
+<p align="center"><img width="250px" src="https://i.ibb.co/jZsqxkj/meier-logo.jpg" alt="Meier" title="Meier Official Website"></p>
 
 <h1 align="center">Project: Meier Official Website</h1>
 
@@ -271,4 +271,4 @@ article {
 **- Títulos/Headings & Párrafos/Paragraphs: Gotham, sans-serif.**
 <p align="center"><img width="100%" src="https://i.postimg.cc/8zySqFtk/Gotham-Font-768x430.webp" alt="Gotham, sans-serif" title="Gotham, sans-serif"></p>
 
- <h1 align="center">Copyright ℗Meier 2023</h1>
+ <h1 align="center">Copyright ®Meier 2023</h1>
