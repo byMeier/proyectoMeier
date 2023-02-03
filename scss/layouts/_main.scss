@@ -41,7 +41,6 @@ div {
 		width: 100%;
 		overflow: hidden;
 		align-self: center;
-		margin-right: 1%;
 	}
 	.fotoGaleria {
 		width: 100%;
@@ -217,8 +216,8 @@ p {
 	font-family: $typo_body;
 	font-size: 18px;
 	font-weight: regular;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 10px;
 	text-align: justify;
 	.songdesc {
@@ -251,8 +250,8 @@ h2 {
 	font-family: $typo_body;
 	font-size: 40px;
 	font-weight: bold;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 10px;
 	width: 100%;
 	overflow: hidden;
@@ -261,7 +260,7 @@ h3 {
 	font-family: $typo_body;
 	font-size: 25px;
 	font-weight: medium;
-	margin-left: 10px;
+	margin-left: auto;
 }
 .galedesc {
 	margin: 2%;

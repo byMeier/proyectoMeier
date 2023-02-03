@@ -141,8 +141,7 @@ div .foto {
   box-shadow: 0 0 5px black;
   width: 100%;
   overflow: hidden;
-  align-self: center;
-  margin-right: 1%; }
+  align-self: center; }
 
 div .fotoGaleria {
   width: 100%;
@@ -312,8 +311,8 @@ p {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: regular;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 10px;
   text-align: justify; }
   p .songdesc {
@@ -345,8 +344,8 @@ h2 {
   font-family: "Raleway", sans-serif;
   font-size: 40px;
   font-weight: bold;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 10px;
   width: 100%;
   overflow: hidden; }
@@ -355,7 +354,7 @@ h3 {
   font-family: "Raleway", sans-serif;
   font-size: 25px;
   font-weight: medium;
-  margin-left: 10px; }
+  margin-left: auto; }
 
 .galedesc {
   margin: 2%;
@@ -463,7 +462,6 @@ button.navbar-toggler {
   border: none; }
 
 button.btn.btn-light {
-  margin: 2%;
   margin-top: 0;
   margin-right: 0;
   font-family: "Raleway", sans-serif;
@@ -519,7 +517,8 @@ button.btn.btn-light {
 
 @media (min-width: 665px) {
   .amuse {
-    margin: 1%; }
+    margin: 1%;
+    margin-right: 3%; }
   iframe {
     height: 300px; }
   .galedesc {
@@ -536,8 +535,6 @@ button.btn.btn-light {
 @media (max-width: 992px) {
   .point {
     display: none; }
-  .songsBox12 {
-    flex-flow: column wrap; }
   .songsBox1, .songsBox12, .songsBox13 {
     margin-top: 5%; }
   .nav-item {
@@ -591,8 +588,6 @@ button.btn.btn-light {
     grid-area: img4; }
   .galedesc {
     font-size: 25px; }
-  .songsBox13 {
-    flex-flow: row nowrap; }
   h1 {
     font-size: 35px; }
   .titleGracias2 {
@@ -603,6 +598,10 @@ button.btn.btn-light {
     height: 600px; }
   .songsBox12 {
     flex-flow: row nowrap; } }
+
+@media (max-width: 1300px) {
+  .songsBox12 {
+    flex-flow: column wrap; } }
 
 @media (min-width: 1300px) {
   a .logo {
@@ -625,7 +624,11 @@ button.btn.btn-light {
     height: 720px; }
   .songsBox12 {
     flex-flow: row nowrap;
-    align-items: flex-start; } }
+    align-items: flex-start; }
+  .songsBox13 {
+    flex-flow: row nowrap; }
+  .foto {
+    margin-right: 1%; } }
 
 @media (min-width: 1600px) {
   p {

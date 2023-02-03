@@ -70,8 +70,8 @@
     
         .amuse{
             margin: 1%;
+            margin-right: 3%;
         }
-    
         iframe{
             height: 300px;
         }
@@ -95,9 +95,6 @@
     @media (max-width:992px){
         .point{
             display: none;
-        }
-        .songsBox12{
-            flex-flow: column wrap;
         }
         .songsBox1{
             margin-top: 5%;
@@ -186,9 +183,6 @@
         .galedesc {
             font-size: 25px;
         }
-        .songsBox13 {
-            flex-flow: row nowrap;
-        }   
         h1{
             font-size: 35px;
         }    
@@ -203,6 +197,12 @@
         }
         .songsBox12{
             flex-flow: row nowrap;
+        }
+    }
+
+    @media(max-width:1300px){
+        .songsBox12{
+            flex-flow: column wrap;
         }
     }
 
@@ -238,6 +238,12 @@
         .songsBox12 {
             flex-flow: row nowrap;
             align-items: flex-start;
+        }
+        .songsBox13{
+            flex-flow: row nowrap;
+        }
+        .foto{
+            margin-right: 1%;
         }
     }
 
