@@ -86,6 +86,7 @@ section {
 		padding-top: 8px;
 		padding-bottom: 8px;
 		padding-right: 20px;
+		margin-top: 3%;
 	}
 	.title {
 		text-align: center;
@@ -327,4 +328,18 @@ form {
 iframe {
 	width: 100%;
 	box-shadow: 0 0 10px black;
+}
+.playlist{
+	width: 90%;
+	box-shadow: none;
+	overflow: auto;
+	display: flex;
+	box-shadow: 0 0 10px black
+}
+.playlistContainer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5%;
 }

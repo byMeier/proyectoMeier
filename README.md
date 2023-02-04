@@ -1,4 +1,4 @@
-<p align="center"><img width="250px" src="https://i.ibb.co/jZsqxkj/meier-logo.jpg" alt="Meier" title="Meier Official Website"></p>
+<p align="center"><img width="250px" src="https://i.postimg.cc/k5K6pRjq/meier-logo.jpg" alt="Meier" title="Meier Official Website"></p>
 
 <h1 align="center">Project: Meier Official Website</h1>
 

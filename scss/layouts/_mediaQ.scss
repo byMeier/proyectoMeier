@@ -31,7 +31,7 @@
             margin-left: auto;
             margin-right: auto;
         }
-        iframe {
+        .ytb {
             height: 180px;
         }
 	}
@@ -49,7 +49,7 @@
     }
 
     @media(min-width:400px) {
-        iframe{
+        .ytb {
             height: 210px;
         }
     }
@@ -72,7 +72,7 @@
             margin: 1%;
             margin-right: 3%;
         }
-        iframe{
+        .ytb {
             height: 300px;
         }
         .galedesc{
@@ -140,7 +140,7 @@
                 justify-content: flex-end;
             }
         }
-        iframe {
+        .ytb {
             height: 450px;
         }
         form {
@@ -229,7 +229,7 @@
                 flex-flow: row;
             }
         }
-        iframe {
+        .ytb {
             height: 600px;
         }
         fieldset {
@@ -244,6 +244,12 @@
         }
         .foto{
             margin-right: 1%;
+        }
+        .playlist{
+            width: 95%;
+        }
+        .playlistContainer{
+            padding-top: 0;
         }
     }
 
