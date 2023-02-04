@@ -605,7 +605,9 @@ button.btn.btn-light {
   h1 {
     font-size: 35px; }
   .titleGracias2 {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .playlistContainer {
+    padding-top: 3%; } }
 
 @media (min-width: 1218px) {
   fieldset {
