@@ -240,7 +240,8 @@ section {
   width: 95%; }
 
 .songsBox1b {
-  width: 90%; }
+  width: 90%;
+  flex-flow: row nowrap; }
 
 .songsBox12 {
   align-items: center; }
@@ -556,12 +557,18 @@ button.btn.btn-light {
     font-size: 18px; }
   .songsBox1, .songsBox1b, .songsBox12, .songsBox13 {
     flex-flow: row wrap; }
+  .songsBox1b {
+    flex-flow: row nowrap; }
   .songsBox13 {
     flex-flow: column wrap; } }
 
 @media (min-width: 790px) {
   fieldset {
     height: 700px; } }
+
+@media (max-width: 805px) {
+  .songsBox1b {
+    flex-flow: row wrap; } }
 
 @media (max-width: 991.5px) {
   .point {

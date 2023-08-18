@@ -81,6 +81,9 @@
         .songsBox1{
             flex-flow: row wrap;
         }        
+        .songsBox1b {
+            flex-flow: row nowrap;
+        }
         .songsBox13{
             flex-flow: column wrap;
         }      
@@ -89,6 +92,13 @@
     @media (min-width:790px){
         fieldset{
             height: 700px;
+        }
+    }
+
+    @media(max-width:805px)
+    {
+        .songsBox1b {
+            flex-flow: row wrap;
         }
     }
 

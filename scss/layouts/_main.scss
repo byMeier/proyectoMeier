@@ -141,6 +141,7 @@ section {
 .songsBox1b {
 	@extend .songsBox1;
 	width: 90%;
+	flex-flow: row nowrap;
 }
 
 .songsBox12 {
