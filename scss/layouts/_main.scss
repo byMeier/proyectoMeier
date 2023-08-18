@@ -30,6 +30,11 @@ div {
 		height: 220px;
 		box-shadow: 0 0 5px black;
 	}
+	.ownsongOG {
+		width: 440px;
+		height: 440px;
+		box-shadow: 0 0 5px black;
+	}
 	.amuse {
 		&:hover {
 			box-shadow: 0 0 5px black;
@@ -113,6 +118,11 @@ section {
 		margin-bottom: 0;
 	}
 }
+
+#v3{
+	width: 100%;
+}
+
 .songsBox1 {
 	@include glassmorphism;
 	display: flex;
@@ -125,8 +135,14 @@ section {
 	margin-right: auto;
 	margin-bottom: 40px;
 	margin-top: 30px;
+	width: 95%;
+}
+
+.songsBox1b {
+	@extend .songsBox1;
 	width: 90%;
 }
+
 .songsBox12 {
 	@extend .songsBox1;
 	align-items: center;
@@ -148,7 +164,7 @@ section {
 	padding-top: 1%;
 	margin: 2%;
 	margin-bottom: 45px;
-	width: 97%;
+	width: 95%;
 	.videoTitle {
 		font-size: 30px;
 		margin-bottom: 1%;

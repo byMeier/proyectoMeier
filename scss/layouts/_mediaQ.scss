@@ -27,7 +27,7 @@
         }
         .songsBox2 {
             padding: 2%;
-            width: 90%;
+            width: 95%;
             margin-left: auto;
             margin-right: auto;
         }
@@ -79,7 +79,7 @@
             font-size: 18px;
         }
         .songsBox1{
-            flex-flow: row nowrap;
+            flex-flow: row wrap;
         }        
         .songsBox13{
             flex-flow: column wrap;
@@ -253,6 +253,18 @@
         }
         .playlistContainer{
             padding-top: 0;
+        }
+    }
+
+    @media (max-width: 1305px){
+        #text{
+            width: 60%;
+        }
+    }
+
+    @media (max-width: 765px){
+        #text{
+            width: 100%;
         }
     }
 

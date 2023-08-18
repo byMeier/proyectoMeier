@@ -139,6 +139,11 @@ div .ownsong {
   height: 220px;
   box-shadow: 0 0 5px black; }
 
+div .ownsongOG {
+  width: 440px;
+  height: 440px;
+  box-shadow: 0 0 5px black; }
+
 div .amuse:hover {
   box-shadow: 0 0 5px black;
   transition: 0.4s; }
@@ -212,7 +217,10 @@ section {
   .new .title {
     margin-bottom: 0; }
 
-.songsBox1, .songsBox12, .songsBox13 {
+#v3 {
+  width: 100%; }
+
+.songsBox1, .songsBox1b, .songsBox12, .songsBox13 {
   background: rgba(202, 202, 202, 0.5);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
@@ -229,6 +237,9 @@ section {
   margin-right: auto;
   margin-bottom: 40px;
   margin-top: 30px;
+  width: 95%; }
+
+.songsBox1b {
   width: 90%; }
 
 .songsBox12 {
@@ -253,7 +264,7 @@ section {
   padding-top: 1%;
   margin: 2%;
   margin-bottom: 45px;
-  width: 97%; }
+  width: 95%; }
   .songsBox2 .videoTitle {
     font-size: 30px;
     margin-bottom: 1%;
@@ -509,7 +520,7 @@ button.btn.btn-light {
     margin-right: auto; }
   .songsBox2 {
     padding: 2%;
-    width: 90%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto; }
   .ytb {
@@ -543,8 +554,8 @@ button.btn.btn-light {
     height: 300px; }
   .galedesc {
     font-size: 18px; }
-  .songsBox1, .songsBox12, .songsBox13 {
-    flex-flow: row nowrap; }
+  .songsBox1, .songsBox1b, .songsBox12, .songsBox13 {
+    flex-flow: row wrap; }
   .songsBox13 {
     flex-flow: column wrap; } }
 
@@ -555,7 +566,7 @@ button.btn.btn-light {
 @media (max-width: 991.5px) {
   .point {
     display: none; }
-  .songsBox1, .songsBox12, .songsBox13 {
+  .songsBox1, .songsBox1b, .songsBox12, .songsBox13 {
     margin-top: 5%; }
   .nav-item {
     width: 80%;
@@ -655,6 +666,14 @@ button.btn.btn-light {
     width: 95%; }
   .playlistContainer {
     padding-top: 0; } }
+
+@media (max-width: 1305px) {
+  #text {
+    width: 60%; } }
+
+@media (max-width: 765px) {
+  #text {
+    width: 100%; } }
 
 @media (min-width: 1600px) {
   p {
